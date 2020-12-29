@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: 'Helvetica', sans-serif;
+}
+
+input {
+    border: 0;
+    border-bottom: 1px solid;
+    outline: none;
+    padding-left: 8px;
+    width: 18rem;
+    font-size: 15px;
+}
+
+.document-container {
+    margin: 20px auto 50px;
+    padding: 0 20px;
+    max-width: 1350px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.header input {
+    width: 12rem;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.item {
+    margin: 7px 0;
+}
+
+.item span {
+    font-weight: bold;
+}
+
+.sub-item {
+    margin: 7px 0 7px 15px;
+}
+
+.sub-item span {
+    font-weight: bold;
+}
+
+.fio {
+    width: 30rem;
+}
+
+.address {
+    width: 20rem;
+}
+
+.org-name {
+    width: 35rem;
+}
+
+.table-data {
+    margin: 30px 0;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    background: #fff;
+    table-layout: fixed;
+}
+
+table.table {
+    width: 100%;
+}
+
+table th {
+    color: #339DFA;
+    font-size: 15px;
+    text-align: center;
+    height: 48px;
+    padding: 0;
+}
+
+table td {
+    color: #707683;
+    font-size: 15px;
+    text-align: center;
+    height: 48px;
+    border-top: 1px solid #dcdcdc;
+    padding: 0;
+}
+table.bordered {
+    border: 1px solid #b5b5b5;
+}
+table.bordered th, td {
+    border-top: 1px solid #b5b5b5;
+    border-right: 1px solid #b5b5b5;
+    height: 50px;
+    text-align: center;
+}
